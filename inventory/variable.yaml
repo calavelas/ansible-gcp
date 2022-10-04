@@ -1,0 +1,19 @@
+---
+all:
+  vars:
+    zone: asia-southeast1-a
+    region: asia-southeast1
+    project_id: 
+    gcloud_sa_path:
+    credentials_file:
+    gcloud_service_account:
+
+    network_project_id: poc-ansible-gcp-network
+    network_project_credentials_file: gcp-network-sa.json
+    network_project_gcloud_service_account: gcp-network-sa@poc-ansible-gcp-network.iam.gserviceaccount.com
+
+    cluster_name: gke-ansible-cluster
+    initial_node_count:
+    disk_size_gb: 1 
+    disk_type:
+    machine_type:

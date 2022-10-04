@@ -1,0 +1,7 @@
+---
+- name: Automate Infra
+  hosts: localhost
+  gather_facts: false
+
+  roles:
+    - network
